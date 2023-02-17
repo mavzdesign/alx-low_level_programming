@@ -2,9 +2,7 @@
 int main()
 {
     /*string initialisation*/
-    char Mystr[] = "\"Programming is like building a multilingual puzzle";
-    
-    puts(Mystr); 
-    
+    char mystr[] = "\"Programming is like building a multilingual puzzle";    
+    puts(mystr); 
     return 0;
 }
