@@ -12,7 +12,7 @@ int counter;
 for (counter = 1; counter <= 10; counter++)
 {
 
-print_alphabet();
+print_alphabet;
 _putchar('\n');
 
 }
