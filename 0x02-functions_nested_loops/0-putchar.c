@@ -5,12 +5,11 @@
  *Return: Always 0 (Success)
  */
 
-int main(void)
+int putch(void)
 {
 
-char text [] = "putchar";
-  
-_putchar(text);
+_putchar('_');
+_putchar('\n');
 
 return (0);
 
