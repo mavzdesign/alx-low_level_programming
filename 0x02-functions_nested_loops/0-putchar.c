@@ -5,7 +5,7 @@
  *Return: Always 0 (Success)
  */
 
-int putch(void)
+int main(void)
 {
 
 _putchar('_');
