@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
  * print_times_table - print multiplication table up to n
@@ -39,7 +39,7 @@ void print_times_table(int n)
 					else if (product >= 100)
 					{
 						_putchar('0' + (product / 100));
-						_putchar('0' + ((product / 10) % 10));
+						_putchar('0' + ((product / 10) - 10));
 						_putchar('0' + (product % 10));
 					}
 				}
