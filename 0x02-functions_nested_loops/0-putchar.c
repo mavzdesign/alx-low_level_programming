@@ -16,9 +16,10 @@ for (i = 0; text[i] != '\0'; ++i)
 {
 
 _putchar(text[i]);
-_putchar('\n');
 
 }
+
+_putchar('\n');
 
 return (0);
 
