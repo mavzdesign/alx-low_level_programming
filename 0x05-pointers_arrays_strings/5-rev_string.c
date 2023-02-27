@@ -11,8 +11,6 @@ void rev_string(char *s)
 
 int begin, end, count = 0;
 
-char aux[1000];
-
 while (s[count] != '\0')
 {
 count++;
@@ -23,13 +21,11 @@ end = count - 1;
 for (begin = 0; begin < count; begin++)
 {
 
-aux[begin] = s[end];
+_putchar(s[end]);
 end--;
 
 }
 
-aux[begin] = '\0';
-
-return (aux);
+return (0);
 
 }
