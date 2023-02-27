@@ -30,7 +30,6 @@ end--;
 
 aux[begin] = '\0';
 
-printf("%s\n", aux);
+return (aux);
 
-return (0);
 }
