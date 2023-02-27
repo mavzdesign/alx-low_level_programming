@@ -11,6 +11,8 @@ void rev_string(char *s)
 
 int begin, end, count = 0;
 
+char aux[1000];
+
 while (s[count] != '\0')
 {
 count++;
@@ -21,14 +23,14 @@ end = count - 1;
 for (begin = 0; begin < count; begin++)
 {
 
-char r[begin] = s[end];
+aux[begin] = s[end];
 end--;
 
 }
 
-r[begin] = '\0';
+aux[begin] = '\0';
 
-printf("%s\n", r);
+printf("%s\n", aux);
 
 return (0);
 }
